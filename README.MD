@@ -41,7 +41,10 @@
         grid:{x:40},
         addClassName:'is-dragging',
         cursorCancel:false,
-    });
+        tops: {min: 300, max: 800}
+    },() =>{
+        console.log('callBackEvent');
+    };
 
 ### backToPosition
 
